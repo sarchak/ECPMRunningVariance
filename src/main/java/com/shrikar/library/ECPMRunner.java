@@ -93,6 +93,7 @@ public class ECPMRunner {
 	public static void main(String[] args) {
 		ECPMRunner runner = new ECPMRunner();
 
+		System.out.println("Starting\n");
 		System.out.println( " TIMESTAMP                           SUM                MEAN              VARIANCE");
 		for(int i = 0; i < 600; i++){
 			try {
